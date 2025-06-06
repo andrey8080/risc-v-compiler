@@ -1,4 +1,4 @@
-name: Build and Test Educational Compiler
+name: Build and Test risc-v-compiler
 
 on:
   push:
