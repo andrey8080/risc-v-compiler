@@ -1,0 +1,47 @@
+create_release.sh
+CHANGELOG.md
+
+# Build directories
+build/
+bin/
+lib/
+
+# Temporary files
+*.o
+*.a
+*.so
+*.exe
+*.s
+*.out
+
+# Generated files
+lex.yy.c
+parser.tab.c
+parser.tab.h
+parser.output
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+test_*.s
+output*.s
+temp_*
+
+# Backup files
+*.bak
+*.backup
